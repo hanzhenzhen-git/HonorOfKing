@@ -1,0 +1,135 @@
+.foot {
+  height: 362px;
+  font: 12px "微软雅黑","宋体";
+  background: url(../img/bg_footer.webp) no-repeat center center;
+}
+
+.footer {
+  padding-top: 80px;
+  font-size: 12px;
+  color: #646467;
+}
+
+.footer .footer-head {
+  display: flex;
+  height: 66px;
+  border-bottom: 2px solid #d4d4d4;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.footer .footer-head .footer-logo-tencent {
+  display: block;
+  width: 285px;
+  height: 64px;
+  background: url(../img/footer_sprite.png) no-repeat 0 0;
+}
+
+.footer .footer-head .footer-logo-timi {
+  display: block;
+  width: 70px;
+  height: 64px;
+  background: url(../img/footer_sprite.png) no-repeat -285px 0;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-content .footer-tips {
+  width: 508px;
+}
+
+.footer .footer-content .footer-tips .tips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .footer-content .footer-tips .tips em {
+  margin-right: 12px;
+  color: #6d6d6d;
+}
+
+.footer .footer-content .footer-tips .intro {
+  margin-top: 6px;
+  color: #666;
+}
+
+.footer .footer-content .footer-links .link-list {
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 650px;
+  font-size: 0;
+}
+
+.footer .footer-content .footer-links .link-list .line {
+  font-size: 12px;
+}
+
+.footer .footer-content .footer-links .link-list a {
+  color: #646467;
+  font-size: 12px;
+}
+/* .footer .footer-content .footer-links .link-list .item {
+  display: flex;
+  font-size: 12px;
+} */
+
+.footer .footer-content .footer-links .link-list .line:last-child  {
+  display: none;
+}
+
+.footer .footer-content .footer-links .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.footer .footer-content .footer-links .copyright .copyright-en p {
+  font-size: 10px;
+}
+
+.footer .footer-content .footer-links .copyright .copyright-zh {
+  display: flex;
+  font-size: 12px;
+}
+
+.footer .footer-content .footer-links .copyright .copyright-zh a {
+  color: #646467;
+}
+
+.footer .footer-content .footer-links .copyright .copyright-zh a:last-child {
+  padding-left: 10px;
+}
+
+.footer .footer-content .footer-links .copyright-public {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-content .footer-links .copyright-public a {
+  color: #646467;
+}
+
+.footer .footer-content .footer-links .copyright-public a img {
+  vertical-align: middle;
+}
+
+.footer .footer-content .footer-links .copyright-private {
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-content .footer-links .copyright-private a {
+  color: #646467;
+}
+
+.footer .footer-content .footer-links .copyright-private img {
+  vertical-align: middle;
+}
+
+.footer .footer-content .footer-links .report {
+  color: #666;
+}

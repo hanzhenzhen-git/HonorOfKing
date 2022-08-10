@@ -1,0 +1,100 @@
+.video_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.video_item {
+  display: block;
+  width: 209px;
+  /* margin: 0 12px 30px 0; */
+  margin-bottom: 20px;
+}
+
+.video_item .album {
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.video_item .album img {
+  display: block;
+  width: 209px;
+  height: 125px;
+}
+
+.video_item .album .info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+}
+
+.video_item .album .info .count {
+  padding-left: 15px;
+  background: url(../img/main_sprite.png) no-repeat -256px -59px;
+}
+
+.video_item .album .cover {
+  display: none;
+  /* opacity: 0; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  /* transition: opacity 300ms ease-in; */
+  /* 这里的动画有两种做法：
+  1、transition，需要设置为悬浮状态的oapcity,注意display：none不支持trasition动画
+  2、animation（官网做法） */
+}
+
+.video_item:hover .album .cover {
+  display: block;
+  /* opacity: 1; */
+  animation: itemCoverAnim 300ms ease forwards;
+}
+
+
+@keyframes itemCoverAnim {
+  /* 0%和100%也可以用from、to两个关键字代替 */
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.video_item .album .cover .icon_play {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background: url(../img/main_sprite.png) no-repeat -192px -64px;
+}
+
+.video_item .desc {
+  margin-top: 10px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

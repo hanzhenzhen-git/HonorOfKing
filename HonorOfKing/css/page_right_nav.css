@@ -1,0 +1,70 @@
+.right-nav {
+  position: fixed;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 0;
+  width: 254px;
+  height: 494px;
+  background: url(../img/right_navbg.png) no-repeat;
+}
+
+.right-nav .right-dj {
+  width: 165px;
+  height: 145px;
+  margin-left: 19px;
+  background: url(../img/right_dj.png) no-repeat center top;
+}
+
+.right-nav .right-dj p {
+  position: absolute;
+  top: 37px;
+  left: 29px;
+  font-weight: bold;
+  color: #62401b;
+  overflow: hidden;
+}
+
+.right-nav .right-dj p:last-child {
+  top: 57px;
+}
+
+.right-nav .right-list {
+  position: relative;
+  height: 85px;
+  left: 80px;
+}
+
+
+.right-nav .right-list .item {
+  width: 117px;
+  height: 38px;
+  text-align: center;
+  background: url(../img/right_all.png) no-repeat;
+}
+
+.right-nav .right-list .item.code {
+  height: 132px;
+  background: url(../img/right_all.png) no-repeat -243px 0;
+}
+
+.right-nav .right-list .item.wzyd {
+  background-position: -243px -134px;
+}
+
+.right-nav .right-list .item.weibo {
+  background-position: -122px -120px;
+}
+
+.right-nav .right-list .item.gzh {
+  background-position: -122px -160px;
+}
+
+.right-nav .right-list .item.sph {
+  background-position: -122px 0;
+}
+
+.right-nav .right-list .item img {
+  width: 107px;
+  height: 107px;
+  margin-top: 3px;
+}

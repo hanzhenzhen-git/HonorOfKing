@@ -1,0 +1,55 @@
+.main .section-content .match-center .match-news {
+  display: flex;
+  margin: 20px 0 15px;
+}
+
+.main .section-content .match-center .match-news .news-left {
+  width: 211px;
+  height: 260px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.main .section-content .match-center .match-news .news-right {
+  flex: 1;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.main .section-content .match-center .match-news .news-right .title {
+  margin-right: 80px;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.main .section-content .match-center .match-news .news-right .title:hover {
+  text-decoration: underline;
+}
+
+.main .section-content .match-center .match-news .news-right .sub-title {
+  margin-right: 160px;
+  color: #666;
+  cursor: pointer;
+}
+
+.main .section-content .match-center .match-news .news-right .news-list .item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main .section-content .match-center .match-news .news-right .news-list .item .desc {
+  flex: 1;
+  margin-right: 50px;
+  color: #333;
+}
+
+.main .section-content .match-center .match-news .news-right .news-list .item .desc:hover {
+  text-decoration: underline;
+}
+
+.main .section-content .match-center .match-news .news-right .news-list .item .date {
+  font-size: 12px;
+  color: #b8b9c5;
+}
